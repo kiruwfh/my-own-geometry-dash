@@ -1,0 +1,32 @@
+:root {
+  color-scheme: dark;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(circle at top, #1b2735, #090a0f);
+  color: #f8f9fa;
+}
+
+body {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+canvas#gameCanvas {
+  flex: 1;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
